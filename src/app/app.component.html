@@ -1,0 +1,184 @@
+<nav>
+    <h1>Prabhu</h1>
+</nav>
+<main role="main">
+
+     
+
+<div class="container-fluid">
+
+<div class="container">
+	<div class="row">
+    <div class="col">
+      <h6>Invite For Betrothal  </h6> <br/>
+            <h5>Friday, December 19<sup>th</sup>, 2018</h5>
+			<pre>{{user}}</pre>
+			<p>7:00 PM</p>
+			<br/><br/>
+
+    </div>
+    
+    
+	</div>
+	</div>
+
+<div class="container">
+	<div class="row">
+    <div class="col">
+      <h6>DATE</h6> <br/>
+            <h5>Friday, December 19<sup>th</sup>, 2018</h5>
+			<p>7:00 PM</p>
+			<br/><br/>
+            <!-- Button code -->
+<div title="Add to Calendar" class="addeventatc" style="z-index:1">
+    Add to Calendar
+    <span class="start">10/19/2018 07:00 PM</span>
+    <span class="end">10/19/2018 9:00 PM</span>
+    <span class="timezone">India Standard Time/kolkata</span>
+    <span class="title">Perumal Prabhu Engagement</span>
+    <span class="description">Engagement Function</span>
+    <span class="location">Andal Temple</span>
+</div>
+    </div>
+    <div class="col">
+      <h6>ADDRESS</h6>
+	  <br/>
+	  <h5>Near Andal Temple</h5>
+      <p>84/33 Madathupatti Street,<br/> Srivilliputtur, Virudhunagar Dist,<br/> -626125 </p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+    </div>
+    <div class="col">
+     <h6>INVITED BY</h6>
+	 <br/>
+            <h4>Perumal Prabhu</h4>
+			<p>+91-9677748113</p>
+			<br/>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+    </div>
+	</div>
+	</div>
+	<div class="container">
+		<div class="row">
+		<div class="col">
+	<h3>Invitees</h3>
+	<p>Count(100) </p>
+	</div>
+	
+	<!-- main -->
+<div class="container">
+    <ngx-carousel [inputs]="carouselTileOne" (carouselLoad)="carouselTileOneLoad()">
+        <ngx-tile NgxCarouselItem *ngFor="let tile of carouselTileOneItems; let i = index;">
+            <div class="wBg">
+                <!-- <div class="tile" [style.background]="'url(' + tile + ')'">
+                    <h1>{{i}}</h1>
+                </div> -->
+                <h4>Prabhu</h4>
+                <div>Attending</div>
+            </div>
+        </ngx-tile>
+        <button NgxCarouselPrev class="leftRs">&lt;</button>
+        <button NgxCarouselNext class="rightRs">&gt;</button>
+    </ngx-carousel>
+
+</div>
+	</div>
+	</div>
+	</div>
+	
+	
+ <div class="container">
+<div class="row">
+<div class="col">
+<h3>Comment Wall</h3><br/>
+<p>"We're so really excited, and eagerly looking forward to see you at this event,<br/>Please leave a message on the comment wall!"</p>
+
+<br/>
+<p> -Perumal Prabhu.P
+</div>
+</div>
+
+
+<div id="wrapper">
+
+
+
+   <div class="scrollbar" id="style-3">
+     <div class="force-overflow">
+ <ul class="comment-section">
+
+   <li class="comment user-comment">
+       <div class="info">
+           <h6 >Anie Silverston</h6>
+           <span>4 hours ago</span>
+       </div>
+       <a class="avatar" href="#">
+         
+       </a>
+       <p>Suspendisse gravida sem?</p>
+   </li>
+
+   <li class="comment author-comment">
+       <div class="info">
+           <h6>Jack Smith</h6>
+           <span>3 hours ago</span>
+       </div>
+       <div class="avatar">
+           
+       </div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida sem sit amet molestie portitor.</p>
+
+   </li>
+    <li class="comment user-comment">
+       <div class="info">
+           <h6 >Anie Silverston</h6>
+           <span>4 hours ago</span>
+       </div>
+       <a class="avatar" href="#">
+         
+       </a>
+       <p>Suspendisse gravida sem?</p>
+   </li>
+
+   <li class="comment author-comment">
+       <div class="info">
+           <h6>Jack Smith</h6>
+           <span>3 hours ago</span>
+       </div>
+       <div class="avatar">
+           
+       </div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida sem sit amet molestie portitor.</p>
+
+   </li>
+</ul>
+ 
+ 
+ </div>
+   </div>
+
+
+
+</div>
+
+
+
+   <!-- More comments -->
+<ul class="comment-section">
+   <li class="write-new">
+
+       <form action="#" method="post">
+           <textarea placeholder="Write your comment here" class="form-control"  name="comment"></textarea>
+               
+               <button type="submit" class="btn btn-info">Submit</button>
+           
+       </form>
+
+   </li>
+
+</ul>
+</div>
+   </main>
+   <app-footer></app-footer>
+
+
+
